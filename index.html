@@ -74,7 +74,9 @@
                 <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium">
                     <a href="#home" class="text-rotary-gold hover:text-white transition">Home</a>
                     <a href="#about" class="text-slate-300 hover:text-rotary-gold transition">About Us</a>
+                    <a href="#updates" class="text-slate-300 hover:text-rotary-gold transition">Updates</a>
                     <a href="#projects" class="text-slate-300 hover:text-rotary-gold transition">Projects & Service</a>
+                    <a href="#gallery" class="text-slate-300 hover:text-rotary-gold transition">Gallery</a>
                     <a href="#team" class="text-slate-300 hover:text-rotary-gold transition">Team</a>
                     <a href="#contact" class="text-slate-300 hover:text-rotary-gold transition">Contact</a>
                 </nav>
@@ -100,7 +102,10 @@
         <div id="mobile-menu" class="hidden lg:hidden bg-navy-950 border-b border-slate-800 px-4 pt-2 pb-6 space-y-3">
             <a href="#home" onclick="toggleMobileMenu()" class="block py-2 text-rotary-gold font-medium">Home</a>
             <a href="#about" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">About Us</a>
+            <a href="#updates" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Updates</a>
             <a href="#projects" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Projects & Service</a>
+            <a href="#gallery" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Gallery</a>
+            <a href="#team" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Gallery</a>
             <a href="#team" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Team</a>
             <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Contact</a>
             <button onclick="toggleMobileMenu(); openJoinModal();" class="w-full mt-2 gold-gradient text-navy-950 font-bold px-5 py-3 rounded-xl text-center">
@@ -235,8 +240,95 @@
             </div>
         </section>
 
+        <!-- Updates & Announcements Section -->
+        <section id="updates" class="py-20 bg-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-rotary-gold mb-2">Club Newsroom</h2>
+                    <p class="text-3xl font-extrabold text-navy-900 sm:text-4xl">Latest Updates & Announcements</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Update 1 -->
+                    <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden card-hover flex flex-col justify-between">
+                        <div>
+                            <div class="h-40 navy-gradient flex items-center justify-center p-6 text-white relative">
+                                <i class="fa-solid fa-bullhorn text-4xl text-rotary-gold"></i>
+                                <span class="absolute top-4 left-4 bg-rotary-gold text-navy-950 font-bold text-xs px-3 py-1 rounded-full">Announcement</span>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center text-xs text-slate-400 mb-2 space-x-3">
+                                    <span><i class="fa-regular fa-calendar-days text-rotary-gold mr-1"></i> October 2026</span>
+                                    <span><i class="fa-regular fa-user text-rotary-gold mr-1"></i> PRO Office</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-navy-900 mb-3">2026-2027 Membership Registration Now Open</h3>
+                                <p class="text-slate-600 text-sm leading-relaxed">
+                                    All students interested in joining the Interact Club for the 2026–2027 service period can now pick up membership card registration forms or sign up through our online portal.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 pb-6 pt-0">
+                            <button onclick="openJoinModal()" class="text-xs font-bold text-navy-900 hover:text-rotary-gold flex items-center gap-1 transition">
+                                Register Now <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Update 2 -->
+                    <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden card-hover flex flex-col justify-between">
+                        <div>
+                            <div class="h-40 bg-slate-800 flex items-center justify-center p-6 text-white relative bg-[radial-gradient(#f59e0b_1px,transparent_1px)] [background-size:12px_12px]">
+                                <i class="fa-solid fa-award text-4xl text-rotary-gold"></i>
+                                <span class="absolute top-4 left-4 bg-blue-600 text-white font-bold text-xs px-3 py-1 rounded-full">Success Drive</span>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center text-xs text-slate-400 mb-2 space-x-3">
+                                    <span><i class="fa-regular fa-calendar-days text-rotary-gold mr-1"></i> October 2026</span>
+                                    <span><i class="fa-regular fa-user text-rotary-gold mr-1"></i> Interact Secretariat</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-navy-900 mb-3">National Examinations Support Initiative</h3>
+                                <p class="text-slate-600 text-sm leading-relaxed">
+                                    Our club has officially rolled out encouragement success cards and stationery packs to support Senior 4 and Senior 6 candidates as they prepare for national examinations.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 pb-6 pt-0">
+                            <a href="#projects" class="text-xs font-bold text-navy-900 hover:text-rotary-gold flex items-center gap-1 transition">
+                                View Related Project <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Update 3 -->
+                    <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden card-hover flex flex-col justify-between">
+                        <div>
+                            <div class="h-40 bg-emerald-900 flex items-center justify-center p-6 text-white relative">
+                                <i class="fa-solid fa-handshake-angle text-4xl text-rotary-gold"></i>
+                                <span class="absolute top-4 left-4 bg-emerald-600 text-white font-bold text-xs px-3 py-1 rounded-full">Partnership</span>
+                            </div>
+                            <div class="p-6">
+                                <div class="flex items-center text-xs text-slate-400 mb-2 space-x-3">
+                                    <span><i class="fa-regular fa-calendar-days text-rotary-gold mr-1"></i> September 2026</span>
+                                    <span><i class="fa-regular fa-user text-rotary-gold mr-1"></i> Rotary Gulu</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-navy-900 mb-3">Rotary Club of Gulu Mentorship Visit</h3>
+                                <p class="text-slate-600 text-sm leading-relaxed">
+                                    Rotarians from our sponsoring club visited Ocer Campion to conduct leadership training sessions and discuss upcoming community outreach initiatives for term three.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="px-6 pb-6 pt-0">
+                            <a href="#contact" class="text-xs font-bold text-navy-900 hover:text-rotary-gold flex items-center gap-1 transition">
+                                Contact Mentors <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Featured Projects Section -->
-        <section id="projects" class="py-20 bg-slate-100">
+        <section id="projects" class="py-20 bg-white">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center max-w-2xl mx-auto mb-12">
                     <h2 class="text-xs font-bold uppercase tracking-widest text-rotary-gold mb-2">Making an Impact</h2>
@@ -248,13 +340,13 @@
                     <button onclick="filterProjects('all')" class="filter-btn active px-5 py-2 rounded-full text-sm font-semibold transition bg-navy-900 text-white">
                         All Projects
                     </button>
-                    <button onclick="filterProjects('community')" class="filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-white text-slate-600 hover:bg-slate-200">
+                    <button onclick="filterProjects('community')" class="filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200">
                         Community Service
                     </button>
-                    <button onclick="filterProjects('leadership')" class="filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-white text-slate-600 hover:bg-slate-200">
+                    <button onclick="filterProjects('leadership')" class="filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200">
                         Education & Leadership
                     </button>
-                    <button onclick="filterProjects('environment')" class="filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-white text-slate-600 hover:bg-slate-200">
+                    <button onclick="filterProjects('environment')" class="filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-slate-100 text-slate-600 hover:bg-slate-200">
                         Environmental
                     </button>
                 </div>
@@ -262,7 +354,7 @@
                 <!-- Card Grid -->
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <!-- Project 1 -->
-                    <div class="project-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="community">
+                    <div class="project-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="community">
                         <div class="h-48 bg-slate-800 relative flex items-center justify-center p-6 text-center text-white navy-gradient">
                             <i class="fa-solid fa-book-open text-5xl text-rotary-gold/80 mb-2"></i>
                             <span class="absolute top-4 right-4 bg-rotary-gold text-navy-950 text-xs font-bold px-3 py-1 rounded-full">Community</span>
@@ -272,7 +364,7 @@
                             <p class="text-slate-600 text-sm mb-4 leading-relaxed">
                                 Supporting candidate classes with motivational talks, revision stationery, and moral encouragement ahead of national examinations in Northern Uganda.
                             </p>
-                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-100 pt-4">
+                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-200 pt-4">
                                 <span><i class="fa-regular fa-calendar text-rotary-gold mr-1"></i> Annual Event</span>
                                 <span><i class="fa-solid fa-location-dot text-rotary-gold mr-1"></i> Ocer Campus</span>
                             </div>
@@ -280,7 +372,7 @@
                     </div>
 
                     <!-- Project 2 -->
-                    <div class="project-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="environment">
+                    <div class="project-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="environment">
                         <div class="h-48 bg-emerald-900 relative flex items-center justify-center p-6 text-center text-white bg-[radial-gradient(#10b981_1px,transparent_1px)] [background-size:12px_12px]">
                             <i class="fa-solid fa-seedling text-5xl text-rotary-gold/80 mb-2"></i>
                             <span class="absolute top-4 right-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1 rounded-full">Environmental</span>
@@ -290,7 +382,7 @@
                             <p class="text-slate-600 text-sm mb-4 leading-relaxed">
                                 Tree planting exercise to promote environmental conservation, mitigate climate change, and beautify the campus and surrounding Gulu community.
                             </p>
-                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-100 pt-4">
+                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-200 pt-4">
                                 <span><i class="fa-regular fa-calendar text-rotary-gold mr-1"></i> Bi-annual</span>
                                 <span><i class="fa-solid fa-tree text-rotary-gold mr-1"></i> 300+ Trees</span>
                             </div>
@@ -298,7 +390,7 @@
                     </div>
 
                     <!-- Project 3 -->
-                    <div class="project-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="leadership">
+                    <div class="project-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="leadership">
                         <div class="h-48 bg-navy-900 relative flex items-center justify-center p-6 text-center text-white navy-gradient">
                             <i class="fa-solid fa-award text-5xl text-rotary-gold/80 mb-2"></i>
                             <span class="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">Leadership</span>
@@ -308,7 +400,7 @@
                             <p class="text-slate-600 text-sm mb-4 leading-relaxed">
                                 Interactive workshops in collaboration with Rotary Club of Gulu mentors to equip students with public speaking, project management, and ethical leadership skills.
                             </p>
-                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-100 pt-4">
+                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-200 pt-4">
                                 <span><i class="fa-regular fa-calendar text-rotary-gold mr-1"></i> Quarterly</span>
                                 <span><i class="fa-solid fa-users text-rotary-gold mr-1"></i> All Students</span>
                             </div>
@@ -316,7 +408,7 @@
                     </div>
 
                     <!-- Project 4 -->
-                    <div class="project-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="community">
+                    <div class="project-card bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm card-hover" data-category="community">
                         <div class="h-48 bg-amber-900 relative flex items-center justify-center p-6 text-center text-white">
                             <i class="fa-solid fa-hands-holding-child text-5xl text-rotary-gold/80 mb-2"></i>
                             <span class="absolute top-4 right-4 bg-rotary-gold text-navy-950 text-xs font-bold px-3 py-1 rounded-full">Community</span>
@@ -326,10 +418,123 @@
                             <p class="text-slate-600 text-sm mb-4 leading-relaxed">
                                 Community health campaigns focusing on sanitation, personal hygiene, and supporting vulnerable youth in neighboring communities in Gulu.
                             </p>
-                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-100 pt-4">
+                            <div class="flex items-center text-xs text-slate-500 font-medium space-x-4 border-t border-slate-200 pt-4">
                                 <span><i class="fa-regular fa-calendar text-rotary-gold mr-1"></i> Ongoing</span>
                                 <span><i class="fa-solid fa-hospital text-rotary-gold mr-1"></i> Gulu Outskirts</span>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="py-20 bg-slate-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <h2 class="text-xs font-bold uppercase tracking-widest text-rotary-gold mb-2">Memories & Moments</h2>
+                    <p class="text-3xl font-extrabold text-navy-900 sm:text-4xl">Interact Club Photo Gallery</p>
+                </div>
+
+                <!-- Gallery Filter Buttons -->
+                <div class="flex flex-wrap justify-center gap-2 mb-12" id="gallery-filters">
+                    <button onclick="filterGallery('all')" class="gallery-filter-btn active px-5 py-2 rounded-full text-sm font-semibold transition bg-navy-900 text-white">
+                        All Photos
+                    </button>
+                    <button onclick="filterGallery('meetings')" class="gallery-filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-white text-slate-600 hover:bg-slate-200">
+                        Meetings & Fellowships
+                    </button>
+                    <button onclick="filterGallery('community')" class="gallery-filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-white text-slate-600 hover:bg-slate-200">
+                        Community Service
+                    </button>
+                    <button onclick="filterGallery('events')" class="gallery-filter-btn px-5 py-2 rounded-full text-sm font-semibold transition bg-white text-slate-600 hover:bg-slate-200">
+                        Special Events
+                    </button>
+                </div>
+
+                <!-- Gallery Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Gallery Item 1 -->
+                    <div class="gallery-item group relative overflow-hidden rounded-2xl bg-navy-900 shadow-md cursor-pointer card-hover" data-category="meetings" onclick="openLightbox('Club General Assembly', 'Weekly assembly meeting discussing term service goals and upcoming activities at Ocer Campion Jesuit College.', 'fa-solid fa-people-group')">
+                        <div class="h-64 navy-gradient flex flex-col items-center justify-center p-6 text-center text-white relative">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition"></div>
+                            <i class="fa-solid fa-people-group text-5xl text-rotary-gold mb-3 transform group-hover:scale-110 transition duration-300"></i>
+                            <h4 class="font-bold text-lg text-white">General Assembly</h4>
+                            <span class="text-xs text-slate-300 mt-1">Meetings & Fellowships</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between">
+                            <span class="text-xs text-white font-medium">Click to view details</span>
+                            <i class="fa-solid fa-expand text-rotary-gold"></i>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2 -->
+                    <div class="gallery-item group relative overflow-hidden rounded-2xl bg-navy-900 shadow-md cursor-pointer card-hover" data-category="community" onclick="openLightbox('Tree Planting Exercise', 'Green Ocer initiative with members planting trees around campus grounds with Rotary mentors.', 'fa-solid fa-tree')">
+                        <div class="h-64 bg-emerald-900 flex flex-col items-center justify-center p-6 text-center text-white relative">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition"></div>
+                            <i class="fa-solid fa-tree text-5xl text-rotary-gold mb-3 transform group-hover:scale-110 transition duration-300"></i>
+                            <h4 class="font-bold text-lg text-white">Green Ocer Tree Planting</h4>
+                            <span class="text-xs text-slate-300 mt-1">Community Service</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between">
+                            <span class="text-xs text-white font-medium">Click to view details</span>
+                            <i class="fa-solid fa-expand text-rotary-gold"></i>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3 -->
+                    <div class="gallery-item group relative overflow-hidden rounded-2xl bg-navy-900 shadow-md cursor-pointer card-hover" data-category="events" onclick="openLightbox('National Exams Encouragement', 'Distributing success cards and stationery packages to candidate classes ahead of national exams.', 'fa-solid fa-award')">
+                        <div class="h-64 bg-amber-900 flex flex-col items-center justify-center p-6 text-center text-white relative">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition"></div>
+                            <i class="fa-solid fa-award text-5xl text-rotary-gold mb-3 transform group-hover:scale-110 transition duration-300"></i>
+                            <h4 class="font-bold text-lg text-white">Exam Encouragement Drive</h4>
+                            <span class="text-xs text-slate-300 mt-1">Special Events</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between">
+                            <span class="text-xs text-white font-medium">Click to view details</span>
+                            <i class="fa-solid fa-expand text-rotary-gold"></i>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 4 -->
+                    <div class="gallery-item group relative overflow-hidden rounded-2xl bg-navy-900 shadow-md cursor-pointer card-hover" data-category="meetings" onclick="openLightbox('Rotary Gulu Mentorship Session', 'Visiting Rotarians guiding executive officers on effective community project planning and leadership.', 'fa-solid fa-handshake')">
+                        <div class="h-64 bg-blue-900 flex flex-col items-center justify-center p-6 text-center text-white relative">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition"></div>
+                            <i class="fa-solid fa-handshake text-5xl text-rotary-gold mb-3 transform group-hover:scale-110 transition duration-300"></i>
+                            <h4 class="font-bold text-lg text-white">Rotary Mentorship Session</h4>
+                            <span class="text-xs text-slate-300 mt-1">Meetings & Fellowships</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between">
+                            <span class="text-xs text-white font-medium">Click to view details</span>
+                            <i class="fa-solid fa-expand text-rotary-gold"></i>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 5 -->
+                    <div class="gallery-item group relative overflow-hidden rounded-2xl bg-navy-900 shadow-md cursor-pointer card-hover" data-category="community" onclick="openLightbox('Community Health Outreach', 'Interactors championing sanitation and hygiene awareness in communities around Gulu.', 'fa-solid fa-hands-holding-child')">
+                        <div class="h-64 bg-cyan-900 flex flex-col items-center justify-center p-6 text-center text-white relative">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition"></div>
+                            <i class="fa-solid fa-hands-holding-child text-5xl text-rotary-gold mb-3 transform group-hover:scale-110 transition duration-300"></i>
+                            <h4 class="font-bold text-lg text-white">Community Health Outreach</h4>
+                            <span class="text-xs text-slate-300 mt-1">Community Service</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between">
+                            <span class="text-xs text-white font-medium">Click to view details</span>
+                            <i class="fa-solid fa-expand text-rotary-gold"></i>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 6 -->
+                    <div class="gallery-item group relative overflow-hidden rounded-2xl bg-navy-900 shadow-md cursor-pointer card-hover" data-category="events" onclick="openLightbox('Annual Induction Ceremony', 'Welcoming new Interact Club members and pinning the executive board for the 2026-2027 service period.', 'fa-solid fa-medal')">
+                        <div class="h-64 navy-gradient flex flex-col items-center justify-center p-6 text-center text-white relative">
+                            <div class="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition"></div>
+                            <i class="fa-solid fa-medal text-5xl text-rotary-gold mb-3 transform group-hover:scale-110 transition duration-300"></i>
+                            <h4 class="font-bold text-lg text-white">Annual Induction Ceremony</h4>
+                            <span class="text-xs text-slate-300 mt-1">Special Events</span>
+                        </div>
+                        <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-transparent p-4 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-between">
+                            <span class="text-xs text-white font-medium">Click to view details</span>
+                            <i class="fa-solid fa-expand text-rotary-gold"></i>
                         </div>
                     </div>
                 </div>
@@ -488,7 +693,9 @@
                     <ul class="space-y-2 text-xs">
                         <li><a href="#home" class="hover:text-rotary-gold transition">Home</a></li>
                         <li><a href="#about" class="hover:text-rotary-gold transition">About Us</a></li>
+                        <li><a href="#updates" class="hover:text-rotary-gold transition">Updates</a></li>
                         <li><a href="#projects" class="hover:text-rotary-gold transition">Projects & Service</a></li>
+                        <li><a href="#gallery" class="hover:text-rotary-gold transition">Gallery</a></li>
                         <li><a href="#team" class="hover:text-rotary-gold transition">Leadership Team</a></li>
                     </ul>
                 </div>
@@ -547,6 +754,27 @@
         </div>
     </div>
 
+    <!-- Gallery Lightbox Modal Popup -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/90 backdrop-blur-sm hidden">
+        <div class="bg-navy-900 text-white rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl border border-slate-800">
+            <button onclick="closeLightbox()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <div class="text-center mb-6 pt-2">
+                <div id="lightbox-icon-container" class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg text-navy-950 text-2xl">
+                    <i id="lightbox-icon" class="fa-solid fa-camera"></i>
+                </div>
+                <h3 id="lightbox-title" class="text-2xl font-bold text-white mb-2">Photo Title</h3>
+                <p id="lightbox-desc" class="text-sm text-slate-300 leading-relaxed px-4">Photo description details go here.</p>
+            </div>
+            <div class="text-center">
+                <button onclick="closeLightbox()" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-2.5 rounded-xl text-sm transition">
+                    Close Preview
+                </button>
+            </div>
+        </div>
+    </div>
+
     <!-- Feedback Banner Container for custom non-alert notifications -->
     <div id="toast" class="fixed bottom-6 right-6 z-50 bg-navy-900 text-white px-6 py-4 rounded-2xl shadow-2xl border border-rotary-gold hidden flex items-center space-x-3">
         <i class="fa-solid fa-circle-check text-rotary-gold text-xl"></i>
@@ -579,10 +807,45 @@
             document.getElementById('join-modal').classList.add('hidden');
         }
 
+        // Lightbox Modal Logic for Gallery
+        function openLightbox(title, description, iconClass) {
+            document.getElementById('lightbox-title').textContent = title;
+            document.getElementById('lightbox-desc').textContent = description;
+            document.getElementById('lightbox-icon').className = iconClass;
+            document.getElementById('lightbox-modal').classList.remove('hidden');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox-modal').classList.add('hidden');
+        }
+
         // Filter Projects
         function filterProjects(category) {
             const cards = document.querySelectorAll('.project-card');
-            const filterBtns = document.querySelectorAll('.filter-btn');
+            const filterBtns = document.querySelectorAll('#project-filters .filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.classList.remove('bg-navy-900', 'text-white');
+                btn.classList.add('bg-slate-100', 'text-slate-600');
+            });
+
+            // Highlight active button
+            event.target.classList.remove('bg-slate-100', 'text-slate-600');
+            event.target.classList.add('bg-navy-900', 'text-white');
+
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Filter Gallery Photos
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const filterBtns = document.querySelectorAll('#gallery-filters .gallery-filter-btn');
 
             filterBtns.forEach(btn => {
                 btn.classList.remove('bg-navy-900', 'text-white');
@@ -593,11 +856,11 @@
             event.target.classList.remove('bg-white', 'text-slate-600');
             event.target.classList.add('bg-navy-900', 'text-white');
 
-            cards.forEach(card => {
-                if (category === 'all' || card.getAttribute('data-category') === category) {
-                    card.style.display = 'block';
+            items.forEach(item => {
+                if (category === 'all' || item.getAttribute('data-category') === category) {
+                    item.style.display = 'block';
                 } else {
-                    card.style.display = 'none';
+                    item.style.display = 'none';
                 }
             });
         }
