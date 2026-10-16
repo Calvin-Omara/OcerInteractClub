@@ -46,8 +46,9 @@
             background-image: radial-gradient(rgba(247, 168, 27, 0.15) 1px, transparent 1px);
             background-size: 24px 24px;
         }
+        /* Realistic ID Card Styling */
         .id-card-shadow {
-            box-shadow: 0 25px 50px -12px rgba(0, 32, 91, 0.35), 0 0 0 1px rgba(247, 168, 27, 0.3);
+            box-shadow: 0 20px 40px -15px rgba(0, 32, 91, 0.25), 0 0 0 1px rgba(0, 0, 0, 0.05);
         }
         @media print {
             body * {
@@ -113,4 +114,838 @@
         <div class="hidden md:hidden bg-white border-b border-gray-200 shadow-xl" id="mobileMenu">
             <div class="px-4 pt-2 pb-6 space-y-2">
                 <a href="#home" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-semibold text-rotary-blue bg-blue-50">Home</a>
-                <a href="#about
+                <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">About Us</a>
+                <a href="#projects" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Projects</a>
+                <a href="#badge" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Membership Badge</a>
+                <a href="#leadership" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Leadership</a>
+                <a href="#contact" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-100">Contact</a>
+                <a href="#join" class="mobile-nav-link block w-full text-center mt-4 bg-rotary-gold text-rotary-blue font-bold px-4 py-2.5 rounded-full shadow">
+                    Join Us Today
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- HERO SECTION -->
+        <section id="home" class="relative bg-rotary-gradient text-white overflow-hidden py-20 lg:py-28 hero-pattern">
+            <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-rotary-gold/10 blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 rounded-full bg-blue-400/10 blur-3xl pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                        <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
+                            <span class="w-2.5 h-2.5 rounded-full bg-rotary-gold animate-ping"></span>
+                            <span class="text-xs sm:text-sm font-semibold text-rotary-gold uppercase tracking-wider">Ocer Campion Jesuit College • Gulu</span>
+                        </div>
+                        
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+                            Leadership Through <span class="text-rotary-gold underline decoration-rotary-gold/40 underline-offset-8">Service</span>
+                        </h1>
+                        
+                        <p class="text-lg sm:text-xl text-gray-200 font-light max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                            Empowering young leaders, fostering lifelong fellowship, and driving meaningful change across our school and the Gulu community under the motto <strong class="text-white font-semibold">"Service Above Self"</strong>.
+                        </p>
+
+                        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                            <a href="#projects" class="w-full sm:w-auto text-center bg-rotary-gold hover:bg-rotary-lightGold text-rotary-blue font-bold px-8 py-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 text-base">
+                                <i class="fa-solid fa-hands-holding-circle mr-2"></i> Explore Our Projects
+                            </a>
+                            <a href="#badge" class="w-full sm:w-auto text-center bg-transparent hover:bg-white/10 text-white font-semibold px-8 py-4 rounded-full border-2 border-white/40 hover:border-white transition-all duration-300 text-base">
+                                <i class="fa-solid fa-id-badge mr-2"></i> Custom Membership Badge
+                            </a>
+                        </div>
+
+                        <div class="pt-10 grid grid-cols-3 gap-4 border-t border-white/15 max-w-lg mx-auto lg:mx-0">
+                            <div>
+                                <span class="block text-2xl sm:text-3xl font-extrabold text-rotary-gold">100+</span>
+                                <span class="text-xs text-gray-300 uppercase tracking-wider">Active Members</span>
+                            </div>
+                            <div>
+                                <span class="block text-2xl sm:text-3xl font-extrabold text-rotary-gold">15+</span>
+                                <span class="text-xs text-gray-300 uppercase tracking-wider">Community Projects</span>
+                            </div>
+                            <div>
+                                <span class="block text-2xl sm:text-3xl font-extrabold text-rotary-gold">Rotary</span>
+                                <span class="text-xs text-gray-300 uppercase tracking-wider">Gulu Sponsored</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 relative">
+                        <div class="relative mx-auto max-w-md lg:max-w-none">
+                            <div class="absolute inset-0 bg-rotary-gold rounded-3xl transform rotate-3 scale-105 opacity-20 blur-md"></div>
+                            
+                            <div class="relative bg-rotary-navy border-2 border-rotary-gold/30 p-6 sm:p-8 rounded-3xl shadow-2xl text-white space-y-6">
+                                <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-10 h-10 bg-rotary-gold rounded-full flex items-center justify-center text-rotary-blue font-bold">
+                                            <i class="fa-solid fa-award"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-bold text-sm text-white">Youth Service Hub</h3>
+                                            <p class="text-xs text-gray-400">Interact District Partner</p>
+                                        </div>
+                                    </div>
+                                    <span class="bg-rotary-gold/20 text-rotary-gold text-xs font-bold px-3 py-1 rounded-full border border-rotary-gold/30">Active 2026-2027</span>
+                                </div>
+
+                                <div class="space-y-3">
+                                    <div class="bg-white/5 p-4 rounded-xl border border-white/10 flex items-start space-x-3">
+                                        <i class="fa-solid fa-tree text-green-400 text-xl mt-1"></i>
+                                        <div>
+                                            <h4 class="text-sm font-semibold text-white">Environmental Stewardship</h4>
+                                            <p class="text-xs text-gray-300">Tree planting drive on Ocer Campion campus and surround areas.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="bg-white/5 p-4 rounded-xl border border-white/10 flex items-start space-x-3">
+                                        <i class="fa-solid fa-graduation-cap text-rotary-gold text-xl mt-1"></i>
+                                        <div>
+                                            <h4 class="text-sm font-semibold text-white">Academic Encouragement</h4>
+                                            <p class="text-xs text-gray-300">National Exam Success outreach and study support drives.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center pt-2">
+                                    <p class="text-xs text-gray-400 italic">"Service Beyond Self in Action"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-rotary-gold bg-amber-50 px-3 py-1 rounded-full border border-amber-200">About Our Club</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-rotary-blue mt-3">Empowering Youth to Lead & Serve</h2>
+                    <p class="text-gray-600 mt-4 leading-relaxed">
+                        The Interact Club of Ocer Campion Jesuit College brings together student leaders ages 12–18 to develop leadership skills while discovering the power of Rotary's motto, <em>"Service Above Self"</em>.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50/30 p-8 rounded-3xl border border-blue-100 shadow-sm relative overflow-hidden group hover:shadow-md transition-all duration-300">
+                        <div class="w-14 h-14 bg-rotary-blue text-rotary-gold rounded-2xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-rotary-blue mb-4">Our Mission</h3>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            To instill integrity, empathy, and active civic responsibility in young students of Ocer Campion Jesuit College by executing impactful community service projects, supporting educational excellence, and strengthening local partnerships with the Rotary Club of Gulu.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i class="fa-solid fa-circle-check text-rotary-gold mr-2"></i> Grassroots Community Outreach</li>
+                            <li class="flex items-center"><i class="fa-solid fa-circle-check text-rotary-gold mr-2"></i> Youth Leadership Training</li>
+                            <li class="flex items-center"><i class="fa-solid fa-circle-check text-rotary-gold mr-2"></i> Global Consciousness & Friendship</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-amber-50/50 to-orange-50/30 p-8 rounded-3xl border border-amber-100 shadow-sm relative overflow-hidden group hover:shadow-md transition-all duration-300">
+                        <div class="w-14 h-14 bg-rotary-gold text-rotary-blue rounded-2xl flex items-center justify-center text-2xl font-bold mb-6 shadow-md">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-rotary-blue mb-4">Our Vision</h3>
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            A thriving generation of compassionate, action-oriented young leaders who embody Jesuit values and Rotary principles, creating sustainable solutions to local challenges and inspiring positive social transformation across Northern Uganda.
+                        </p>
+                        <ul class="space-y-2 text-sm text-gray-600">
+                            <li class="flex items-center"><i class="fa-solid fa-circle-check text-rotary-blue mr-2"></i> Jesuit Ignatian Values in Action</li>
+                            <li class="flex items-center"><i class="fa-solid fa-circle-check text-rotary-blue mr-2"></i> Active Rotary Club Sponsorship Partnership</li>
+                            <li class="flex items-center"><i class="fa-solid fa-circle-check text-rotary-blue mr-2"></i> Sustainable Environmental & Social Impact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-2xl font-bold text-rotary-blue text-center mb-8">Our Core Values</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:bg-white hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 h-12 bg-rotary-blue/10 text-rotary-blue rounded-full flex items-center justify-center text-xl mx-auto mb-4 font-bold">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-rotary-blue mb-2">Leadership</h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">Developing confidence and decision-making skills through hands-on service initiatives.</p>
+                        </div>
+
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:bg-white hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 h-12 bg-amber-100 text-rotary-darkGold rounded-full flex items-center justify-center text-xl mx-auto mb-4 font-bold">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-rotary-blue mb-2">Fellowship</h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">Building lifelong friendships based on mutual respect, team spirit, and shared values.</p>
+                        </div>
+
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:bg-white hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 h-12 bg-rotary-blue/10 text-rotary-blue rounded-full flex items-center justify-center text-xl mx-auto mb-4 font-bold">
+                                <i class="fa-solid fa-heart text-rotary-gold"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-rotary-blue mb-2">Service</h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">Committing our time, energy, and resources to help those in need and elevate society.</p>
+                        </div>
+
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-center hover:bg-white hover:shadow-lg transition-all duration-300">
+                            <div class="w-12 h-12 bg-amber-100 text-rotary-darkGold rounded-full flex items-center justify-center text-xl mx-auto mb-4 font-bold">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <h4 class="font-bold text-lg text-rotary-blue mb-2">Integrity</h4>
+                            <p class="text-xs text-gray-600 leading-relaxed">Upholding high ethical standards in all personal, academic, and community activities.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS & SERVICE SECTION -->
+        <section id="projects" class="py-20 bg-gray-50 border-t border-b border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-rotary-gold bg-amber-100/60 px-3 py-1 rounded-full border border-amber-200">Impact in Action</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-rotary-blue mt-3">Projects & Service Initiatives</h2>
+                    <p class="text-gray-600 mt-4">
+                        Discover how our Interact members are making a tangible difference within Ocer Campion and the wider Gulu district.
+                    </p>
+
+                    <div class="flex flex-wrap justify-center gap-2 mt-8" id="projectFilterContainer">
+                        <button class="filter-btn active-filter bg-rotary-blue text-white font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition-all shadow-sm" data-filter="all">All Projects</button>
+                        <button class="filter-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition-all" data-filter="education">Education</button>
+                        <button class="filter-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition-all" data-filter="environment">Environment</button>
+                        <button class="filter-btn bg-white text-gray-700 hover:bg-gray-100 border border-gray-200 font-semibold text-xs sm:text-sm px-5 py-2.5 rounded-full transition-all" data-filter="community">Community</button>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projectsGrid">
+                    
+                    <div class="project-card bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col" data-category="education">
+                        <div class="h-48 bg-rotary-navy relative p-6 flex flex-col justify-between text-white overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-t from-rotary-navy to-transparent opacity-80"></div>
+                            <div class="relative z-10 flex justify-between items-start">
+                                <span class="bg-rotary-gold text-rotary-blue text-xs font-bold px-3 py-1 rounded-full uppercase">Education</span>
+                                <span class="text-xs text-gray-300 font-medium"><i class="fa-regular fa-calendar mr-1"></i> Annual Drive</span>
+                            </div>
+                            <div class="relative z-10">
+                                <h3 class="text-xl font-bold text-white">National Exam Success Outreach</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 flex-grow flex flex-col justify-between">
+                            <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                                Crafting and distributing personalized motivational success cards, study supplies, and mentorship to candidates sitting for national exams across Gulu school centers.
+                            </p>
+                            <div class="border-t border-gray-100 pt-4 flex items-center justify-between text-xs text-gray-500">
+                                <span><i class="fa-solid fa-location-dot text-rotary-gold mr-1"></i> Gulu District</span>
+                                <span class="font-semibold text-rotary-blue">500+ Students Reached</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col" data-category="environment">
+                        <div class="h-48 bg-emerald-900 relative p-6 flex flex-col justify-between text-white overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-t from-emerald-950 to-transparent opacity-80"></div>
+                            <div class="relative z-10 flex justify-between items-start">
+                                <span class="bg-emerald-400 text-emerald-950 text-xs font-bold px-3 py-1 rounded-full uppercase">Environment</span>
+                                <span class="text-xs text-gray-300 font-medium"><i class="fa-regular fa-calendar mr-1"></i> Ongoing</span>
+                            </div>
+                            <div class="relative z-10">
+                                <h3 class="text-xl font-bold text-white">Campus Tree Planting Drive</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 flex-grow flex flex-col justify-between">
+                            <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                                Planting fruit and shade trees around Ocer Campion Jesuit College to promote biodiversity, combat soil erosion, and create a cooler green campus environment.
+                            </p>
+                            <div class="border-t border-gray-100 pt-4 flex items-center justify-between text-xs text-gray-500">
+                                <span><i class="fa-solid fa-location-dot text-emerald-600 mr-1"></i> Ocer Campus</span>
+                                <span class="font-semibold text-rotary-blue">300+ Trees Planted</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col" data-category="community">
+                        <div class="h-48 bg-indigo-900 relative p-6 flex flex-col justify-between text-white overflow-hidden">
+                            <div class="absolute inset-0 bg-gradient-to-t from-indigo-950 to-transparent opacity-80"></div>
+                            <div class="relative z-10 flex justify-between items-start">
+                                <span class="bg-rotary-gold text-rotary-blue text-xs font-bold px-3 py-1 rounded-full uppercase">Community</span>
+                                <span class="text-xs text-gray-300 font-medium"><i class="fa-regular fa-calendar mr-1"></i> Quarterly</span>
+                            </div>
+                            <div class="relative z-10">
+                                <h3 class="text-xl font-bold text-white">Community Clean-Up Campaign</h3>
+                            </div>
+                        </div>
+                        <div class="p-6 flex-grow flex flex-col justify-between">
+                            <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                                Interactors lead local sanitation exercises in surrounding trading centers, raising public health awareness and encouraging proper waste disposal habits.
+                            </p>
+                            <div class="border-t border-gray-100 pt-4 flex items-center justify-between text-xs text-gray-500">
+                                <span><i class="fa-solid fa-location-dot text-rotary-gold mr-1"></i> Gulu Communities</span>
+                                <span class="font-semibold text-rotary-blue">4 Local Hubs Served</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- LUXURY DIGITAL MEMBERSHIP BADGE SECTION -->
+        <section id="badge" class="py-24 bg-gradient-to-b from-gray-50 via-white to-blue-50/40">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-rotary-gold bg-amber-100/80 px-3 py-1.5 rounded-full border border-amber-200">Verified Credentials</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-rotary-blue mt-3">Interactive Digital Membership Badge</h2>
+                    <p class="text-gray-600 mt-4">
+                        Design and preview your official Interact Club identification credential. Update your member details to instantly customize your badge.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Form Controls -->
+                    <div class="lg:col-span-5 bg-white p-8 rounded-3xl shadow-xl border border-gray-100 space-y-5">
+                        <div class="flex items-center space-x-3 border-b border-gray-100 pb-4">
+                            <div class="w-10 h-10 rounded-xl bg-rotary-blue/10 text-rotary-blue flex items-center justify-center font-bold">
+                                <i class="fa-solid fa-sliders"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-base text-rotary-blue">Badge Customizer</h3>
+                                <p class="text-xs text-gray-500">Type details to update badge instantly</p>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="badgeName" class="block text-xs font-bold text-gray-700 uppercase mb-1">Full Member Name</label>
+                            <input type="text" id="badgeName" value="Munguci Joan" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm">
+                        </div>
+
+                        <div>
+                            <label for="badgeRole" class="block text-xs font-bold text-gray-700 uppercase mb-1">Club Role / Title</label>
+                            <select id="badgeRole" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm bg-white">
+                                <option value="Public Relations Officer">Public Relations Officer</option>
+                                <option value="Club President">Club President</option>
+                                <option value="Club Secretary">Club Secretary</option>
+                                <option value="Club Treasurer">Club Treasurer</option>
+                                <option value="Active Interactor Member">Active Interactor Member</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="badgeYear" class="block text-xs font-bold text-gray-700 uppercase mb-1">Service Period Year</label>
+                            <input type="text" id="badgeYear" value="2026-2027" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm">
+                        </div>
+
+                        <div class="pt-2">
+                            <button id="downloadBadgeBtn" class="w-full bg-rotary-blue hover:bg-rotary-navy text-white font-bold py-4 rounded-xl shadow-lg transition-all text-sm flex items-center justify-center space-x-2">
+                                <i class="fa-solid fa-print"></i>
+                                <span>Print / Save Badge Card</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Realistic Styled Digital Badge Card Preview -->
+                    <div class="lg:col-span-7 flex justify-center">
+                        <div class="relative w-full max-w-[380px]">
+                            <!-- Glow Behind Card -->
+                            <div class="absolute inset-0 bg-gradient-to-r from-rotary-gold to-blue-500 rounded-[2.55rem] blur-xl opacity-30 transform scale-95"></div>
+
+                            <!-- Printable Card Container -->
+                            <div id="printableBadge" class="relative bg-gradient-to-b from-[#00205B] via-[#1B365D] to-[#0a192f] text-white rounded-[2.5rem] p-7 id-card-shadow border-4 border-rotary-gold overflow-hidden flex flex-col justify-between min-h-[520px]">
+                                
+                                <!-- Background Watermark Emblem -->
+                                <div class="absolute -right-16 -top-16 text-white/5 text-[14rem] pointer-events-none select-none">
+                                    <i class="fa-solid fa-gear"></i>
+                                </div>
+
+                                <!-- Card Top Branding -->
+                                <div class="relative z-10 flex items-center justify-between border-b border-white/20 pb-4">
+                                    <div class="flex items-center space-x-3">
+                                        <div class="w-11 h-11 bg-rotary-gold rounded-full flex items-center justify-center text-rotary-blue font-black text-xl shadow-md border-2 border-white/30">
+                                            <i class="fa-solid fa-gear"></i>
+                                        </div>
+                                        <div>
+                                            <span class="block text-[11px] font-extrabold text-rotary-gold tracking-wider uppercase">Interact Club</span>
+                                            <span class="text-[10px] text-gray-200 font-medium">Ocer Campion Jesuit College</span>
+                                        </div>
+                                    </div>
+                                    <span class="bg-rotary-gold text-rotary-blue text-[10px] font-black px-3 py-1 rounded-full shadow" id="previewYear">2026-2027</span>
+                                </div>
+
+                                <!-- Member Avatar & Titles -->
+                                <div class="relative z-10 text-center my-6 space-y-4">
+                                    <div class="relative w-28 h-28 mx-auto rounded-full bg-gradient-to-tr from-rotary-gold to-amber-200 p-1 shadow-xl">
+                                        <div class="w-full h-full rounded-full bg-rotary-navy flex items-center justify-center text-rotary-gold text-4xl shadow-inner border-2 border-white/20">
+                                            <i class="fa-solid fa-user-shield"></i>
+                                        </div>
+                                        <span class="absolute bottom-0 right-1 bg-emerald-500 w-5 h-5 rounded-full border-2 border-white flex items-center justify-center text-[10px] text-white" title="Verified Member">
+                                            <i class="fa-solid fa-check"></i>
+                                        </span>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="text-2xl font-black text-white tracking-wide" id="previewName">Munguci Joan</h3>
+                                        <div class="mt-1 inline-block bg-white/10 backdrop-blur-md px-3 py-1 rounded-full border border-white/20">
+                                            <p class="text-xs font-bold text-rotary-gold uppercase tracking-wider" id="previewRole">Public Relations Officer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Card Bottom Details & QR Simulation -->
+                                <div class="relative z-10 pt-4 border-t border-white/20 flex items-center justify-between">
+                                    <div class="space-y-1">
+                                        <span class="block text-[9px] text-gray-400 uppercase font-bold tracking-wider">Sponsoring Rotary</span>
+                                        <span class="text-xs font-bold text-white">Rotary Club of Gulu</span>
+                                        <span class="block text-[10px] text-rotary-gold font-semibold">@ocerinteract</span>
+                                    </div>
+                                    <div class="bg-white p-2 rounded-xl shadow-inner text-rotary-blue flex items-center justify-center w-14 h-14">
+                                        <i class="fa-solid fa-qrcode text-3xl"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- LEADERSHIP & TEAM SECTION -->
+        <section id="leadership" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-rotary-gold bg-amber-50 px-3 py-1 rounded-full border border-amber-200">Executive Committee</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-rotary-blue mt-3">Meet Our Student Leaders</h2>
+                    <p class="text-gray-600 mt-4">
+                        Dedicated student officers guiding the Interact Club of Ocer Campion Jesuit College with passion, integrity, and enthusiasm.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-24 h-24 rounded-full bg-rotary-blue text-rotary-gold mx-auto mb-4 flex items-center justify-center font-bold text-3xl shadow-inner border-4 border-rotary-gold/40">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3 class="font-extrabold text-lg text-rotary-blue">Club President</h3>
+                        <p class="text-xs font-semibold text-rotary-gold uppercase tracking-wider mb-3">Executive Leader</p>
+                        <p class="text-xs text-gray-600 mb-4 leading-relaxed">Oversees club operations, coordinates with Rotary Club of Gulu, and directs overall strategy.</p>
+                        <div class="flex justify-center space-x-3 text-gray-400">
+                            <a href="#contact" class="hover:text-rotary-blue transition-colors"><i class="fa-regular fa-envelope"></i></a>
+                            <a href="https://instagram.com/ocerinteract" target="_blank" rel="noopener" class="hover:text-rotary-blue transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-24 h-24 rounded-full bg-rotary-navy text-rotary-gold mx-auto mb-4 flex items-center justify-center font-bold text-3xl shadow-inner border-4 border-rotary-gold/40">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                        <h3 class="font-extrabold text-lg text-rotary-blue">Public Relations Officer</h3>
+                        <p class="text-xs font-semibold text-rotary-gold uppercase tracking-wider mb-3">Media & Outreach</p>
+                        <p class="text-xs text-gray-600 mb-4 leading-relaxed">Manages social platforms (@ocerinteract), handles announcements, and boosts club visibility.</p>
+                        <div class="flex justify-center space-x-3 text-gray-400">
+                            <a href="https://instagram.com/ocerinteract" target="_blank" rel="noopener" class="hover:text-rotary-blue transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://tiktok.com/@ocerinteract" target="_blank" rel="noopener" class="hover:text-rotary-blue transition-colors"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-24 h-24 rounded-full bg-rotary-blue text-rotary-gold mx-auto mb-4 flex items-center justify-center font-bold text-3xl shadow-inner border-4 border-rotary-gold/40">
+                            <i class="fa-solid fa-pen-nib"></i>
+                        </div>
+                        <h3 class="font-extrabold text-lg text-rotary-blue">Club Secretary</h3>
+                        <p class="text-xs font-semibold text-rotary-gold uppercase tracking-wider mb-3">Records & Secretariat</p>
+                        <p class="text-xs text-gray-600 mb-4 leading-relaxed">Maintains official club records, meeting minutes, member rolls, and administrative communication.</p>
+                        <div class="flex justify-center space-x-3 text-gray-400">
+                            <a href="#contact" class="hover:text-rotary-blue transition-colors"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div class="w-24 h-24 rounded-full bg-rotary-navy text-rotary-gold mx-auto mb-4 flex items-center justify-center font-bold text-3xl shadow-inner border-4 border-rotary-gold/40">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                        <h3 class="font-extrabold text-lg text-rotary-blue">Club Treasurer</h3>
+                        <p class="text-xs font-semibold text-rotary-gold uppercase tracking-wider mb-3">Finance & Projects</p>
+                        <p class="text-xs text-gray-600 mb-4 leading-relaxed">Manages project budgets, dues, and fundraising accounts with complete transparency.</p>
+                        <div class="flex justify-center space-x-3 text-gray-400">
+                            <a href="#contact" class="hover:text-rotary-blue transition-colors"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-16 bg-rotary-accent/50 border border-blue-200 rounded-3xl p-8 text-center flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="flex items-center space-x-4 text-left">
+                        <div class="w-14 h-14 bg-rotary-blue text-rotary-gold rounded-full flex items-center justify-center font-extrabold text-2xl flex-shrink-0">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold text-rotary-blue">Sponsored by Rotary Club of Gulu</h4>
+                            <p class="text-sm text-gray-600">Providing mentorship, resources, and leadership guidance to Ocer Campion youth.</p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="whitespace-nowrap bg-rotary-blue hover:bg-rotary-navy text-white text-sm font-bold px-6 py-3 rounded-full shadow transition-all">
+                        Contact Sponsor Liaison
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- JOIN US & CONTACT SECTION -->
+        <section id="join" class="py-20 bg-gray-900 text-white relative overflow-hidden">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl bg-rotary-blue/40 blur-3xl rounded-full pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10" id="contact">
+                
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-extrabold uppercase tracking-widest text-rotary-gold bg-white/10 px-3 py-1 rounded-full border border-white/20">Get Connected</span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white mt-3">Join Our Cause & Reach Out</h2>
+                    <p class="text-gray-300 mt-4">
+                        Whether you are an Ocer Campion student eager to serve, a fellow Rotarian, or a prospective partner, we'd love to hear from you.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                    
+                    <div class="lg:col-span-5 space-y-8">
+                        <div class="bg-white/5 border border-white/10 rounded-3xl p-8 backdrop-blur-md space-y-6">
+                            <h3 class="text-2xl font-bold text-rotary-gold border-b border-white/10 pb-4">Contact Information</h3>
+                            
+                            <div class="space-y-4">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-10 h-10 bg-rotary-gold text-rotary-blue rounded-xl flex items-center justify-center font-bold flex-shrink-0 mt-1">
+                                        <i class="fa-solid fa-school"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-bold text-white">School Host Institution</h4>
+                                        <p class="text-sm text-gray-300">Ocer Campion Jesuit College</p>
+                                        <p class="text-xs text-gray-400">Gulu, Uganda</p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-10 h-10 bg-rotary-gold text-rotary-blue rounded-xl flex items-center justify-center font-bold flex-shrink-0 mt-1">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-bold text-white">Direct Email</h4>
+                                        <a href="mailto:ocerinteract@gmail.com" class="text-sm text-rotary-gold hover:underline">ocerinteract@gmail.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-10 h-10 bg-rotary-gold text-rotary-blue rounded-xl flex items-center justify-center font-bold flex-shrink-0 mt-1">
+                                        <i class="fa-solid fa-ribbon"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-bold text-white">Sponsoring Rotary Club</h4>
+                                        <p class="text-sm text-gray-300">Rotary Club of Gulu</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-6 border-t border-white/10">
+                                <h4 class="text-sm font-bold text-white mb-4">Follow Our Updates</h4>
+                                <div class="grid grid-cols-2 gap-3">
+                                    <a href="https://instagram.com/ocerinteract" target="_blank" rel="noopener" class="bg-white/10 hover:bg-white/20 border border-white/10 rounded-2xl p-3 flex items-center space-x-3 transition-colors">
+                                        <i class="fa-brands fa-instagram text-2xl text-pink-400"></i>
+                                        <div class="text-left">
+                                            <span class="block text-xs text-gray-400">Instagram</span>
+                                            <span class="text-xs font-bold text-white">@ocerinteract</span>
+                                        </div>
+                                    </a>
+
+                                    <a href="https://tiktok.com/@ocerinteract" target="_blank" rel="noopener" class="bg-white/10 hover:bg-white/20 border border-white/10 rounded-2xl p-3 flex items-center space-x-3 transition-colors">
+                                        <i class="fa-brands fa-tiktok text-2xl text-cyan-400"></i>
+                                        <div class="text-left">
+                                            <span class="block text-xs text-gray-400">TikTok</span>
+                                            <span class="text-xs font-bold text-white">@ocerinteract</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-7">
+                        <div class="bg-white rounded-3xl p-8 text-gray-800 shadow-2xl border border-gray-100">
+                            <h3 class="text-2xl font-bold text-rotary-blue mb-2">Send Us a Message / Membership Inquiry</h3>
+                            <p class="text-sm text-gray-600 mb-6">Fill out the form below and an Interact executive member will get back to you soon.</p>
+
+                            <div id="formAlert" class="hidden mb-6 p-4 rounded-xl text-sm font-medium"></div>
+
+                            <form id="interactContactForm" class="space-y-4">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label for="fullName" class="block text-xs font-bold text-gray-700 uppercase mb-1">Full Name *</label>
+                                        <input type="text" id="fullName" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm" placeholder="e.g. Grace Aber">
+                                    </div>
+                                    <div>
+                                        <label for="emailAddress" class="block text-xs font-bold text-gray-700 uppercase mb-1">Email Address *</label>
+                                        <input type="email" id="emailAddress" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm" placeholder="e.g. grace@example.com">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label for="inquiryType" class="block text-xs font-bold text-gray-700 uppercase mb-1">I Am A... *</label>
+                                        <select id="inquiryType" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm bg-white">
+                                            <option value="Student">Ocer Campion Student</option>
+                                            <option value="Rotarian">Rotarian / Sponsor</option>
+                                            <option value="Partner">Community Partner / Guest</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="phoneNumber" class="block text-xs font-bold text-gray-700 uppercase mb-1">Phone Number (Optional)</label>
+                                        <input type="tel" id="phoneNumber" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm" placeholder="+256 ...">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="messageSubject" class="block text-xs font-bold text-gray-700 uppercase mb-1">Subject *</label>
+                                    <input type="text" id="messageSubject" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm" placeholder="e.g. Joining Interact / Project Partnership">
+                                </div>
+
+                                <div>
+                                    <label for="messageBody" class="block text-xs font-bold text-gray-700 uppercase mb-1">Message / Note *</label>
+                                    <textarea id="messageBody" rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-rotary-blue text-sm" placeholder="Write your message here..."></textarea>
+                                </div>
+
+                                <button type="submit" id="submitBtn" class="w-full bg-rotary-blue hover:bg-rotary-navy text-white font-bold py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 text-base">
+                                    <i class="fa-solid fa-paper-plane mr-2"></i> Submit Inquiry
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-rotary-navy text-white border-t border-white/10 pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-white/10">
+                
+                <div class="md:col-span-5 space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-rotary-gold rounded-full flex items-center justify-center text-rotary-blue font-bold text-xl">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div>
+                            <span class="block text-lg font-extrabold text-white leading-none">Interact Club</span>
+                            <span class="text-xs text-rotary-gold">Ocer Campion Jesuit College</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-gray-300 leading-relaxed max-w-sm">
+                        Rotary's service club for young leaders ages 12–18. Developing leadership skills, serving local communities, and building international understanding.
+                    </p>
+                    <div class="text-xs text-amber-200/80 italic font-medium">
+                        Sponsored by the Rotary Club of Gulu, Uganda.
+                    </div>
+                </div>
+
+                <div class="md:col-span-3 space-y-3">
+                    <h4 class="text-sm font-bold text-rotary-gold uppercase tracking-wider">Quick Links</h4>
+                    <ul class="space-y-2 text-xs text-gray-300">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">About Mission & Vision</a></li>
+                        <li><a href="#projects" class="hover:text-white transition-colors">Service Projects</a></li>
+                        <li><a href="#badge" class="hover:text-white transition-colors">Membership Badge</a></li>
+                        <li><a href="#leadership" class="hover:text-white transition-colors">Executive Officers</a></li>
+                        <li><a href="#join" class="hover:text-white transition-colors">Join Interact</a></li>
+                    </ul>
+                </div>
+
+                <div class="md:col-span-4 space-y-4">
+                    <h4 class="text-sm font-bold text-rotary-gold uppercase tracking-wider">Connect With Us</h4>
+                    <div class="flex space-x-3 text-lg">
+                        <a href="https://instagram.com/ocerinteract" target="_blank" rel="noopener" class="w-10 h-10 bg-white/10 hover:bg-rotary-gold hover:text-rotary-blue rounded-full flex items-center justify-center transition-all" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://tiktok.com/@ocerinteract" target="_blank" rel="noopener" class="w-10 h-10 bg-white/10 hover:bg-rotary-gold hover:text-rotary-blue rounded-full flex items-center justify-center transition-all" aria-label="TikTok">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="mailto:ocerinteract@gmail.com" class="w-10 h-10 bg-white/10 hover:bg-rotary-gold hover:text-rotary-blue rounded-full flex items-center justify-center transition-all" aria-label="Email">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="bg-white/5 p-3 rounded-xl border border-white/10 text-[11px] text-gray-300">
+                        <p class="font-semibold text-white mb-1"><i class="fa-solid fa-hands-holding-child text-rotary-gold mr-1"></i> Rotary - Interact Partnership</p>
+                        "Service Above Self" • Rotary District Youth Service.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-400 gap-2">
+                <p>&copy; 2026-2027 Interact Club of Ocer Campion Jesuit College. All rights reserved.</p>
+                <p class="text-rotary-gold font-medium">Gulu, Uganda</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- INTERACTIVE JAVASCRIPT LOGIC -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // 1. Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileMenu = document.getElementById('mobileMenu');
+            const menuIcon = document.getElementById('menuIcon');
+
+            if (mobileMenuBtn && mobileMenu) {
+                mobileMenuBtn.addEventListener('click', () => {
+                    const isHidden = mobileMenu.classList.contains('hidden');
+                    if (isHidden) {
+                        mobileMenu.classList.remove('hidden');
+                        menuIcon.classList.remove('fa-bars');
+                        menuIcon.classList.add('fa-xmark');
+                    } else {
+                        mobileMenu.classList.add('hidden');
+                        menuIcon.classList.remove('fa-xmark');
+                        menuIcon.classList.add('fa-bars');
+                    }
+                });
+
+                const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        menuIcon.classList.remove('fa-xmark');
+                        menuIcon.classList.add('fa-bars');
+                    });
+                });
+            }
+
+            // 2. Badge Live Preview Generator & Print Action
+            const badgeNameInput = document.getElementById('badgeName');
+            const badgeRoleInput = document.getElementById('badgeRole');
+            const badgeYearInput = document.getElementById('badgeYear');
+            
+            const previewName = document.getElementById('previewName');
+            const previewRole = document.getElementById('previewRole');
+            const previewYear = document.getElementById('previewYear');
+            const downloadBadgeBtn = document.getElementById('downloadBadgeBtn');
+
+            if (badgeNameInput && previewName) {
+                badgeNameInput.addEventListener('input', (e) => {
+                    previewName.textContent = e.target.value.trim() || 'Your Name';
+                });
+            }
+
+            if (badgeRoleInput && previewRole) {
+                badgeRoleInput.addEventListener('change', (e) => {
+                    previewRole.textContent = e.target.value;
+                });
+            }
+
+            if (badgeYearInput && previewYear) {
+                badgeYearInput.addEventListener('input', (e) => {
+                    previewYear.textContent = e.target.value.trim() || '2026-2027';
+                });
+            }
+
+            if (downloadBadgeBtn) {
+                downloadBadgeBtn.addEventListener('click', () => {
+                    window.print();
+                });
+            }
+
+            // 3. Projects Category Filter
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    filterButtons.forEach(btn => {
+                        btn.classList.remove('bg-rotary-blue', 'text-white', 'shadow-sm');
+                        btn.classList.add('bg-white', 'text-gray-700', 'hover:bg-gray-100');
+                    });
+
+                    button.classList.remove('bg-white', 'text-gray-700', 'hover:bg-gray-100');
+                    button.classList.add('bg-rotary-blue', 'text-white', 'shadow-sm');
+
+                    const filterValue = button.getAttribute('data-filter');
+
+                    projectCards.forEach(card => {
+                        const category = card.getAttribute('data-category');
+                        if (filterValue === 'all' || category === filterValue) {
+                            card.style.display = 'flex';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            // 4. Interactive Contact / Membership Form Handling
+            const contactForm = document.getElementById('interactContactForm');
+            const formAlert = document.getElementById('formAlert');
+            const submitBtn = document.getElementById('submitBtn');
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    const fullName = document.getElementById('fullName').value.trim();
+
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fa-solid fa-spinner animate-spin mr-2"></i> Sending Message...';
+
+                    setTimeout(() => {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane mr-2"></i> Submit Inquiry';
+
+                        formAlert.className = 'mb-6 p-4 rounded-xl text-sm font-semibold bg-emerald-100 text-emerald-800 border border-emerald-300 block';
+                        formAlert.innerHTML = `<i class="fa-solid fa-circle-check mr-2 text-emerald-600"></i> Thank you, <strong>${fullName}</strong>! Your inquiry has been sent to <em>ocerinteract@gmail.com</em>. Our leadership team will respond shortly.`;
+
+                        contactForm.reset();
+
+                        setTimeout(() => {
+                            formAlert.className = 'hidden';
+                        }, 8000);
+                    }, 1200);
+                });
+            }
+
+            // 5. Smooth Scrolling & Active State Navigation Highlight
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                const scrollY = window.pageYOffset;
+
+                sections.forEach(section => {
+                    const sectionHeight = section.offsetHeight;
+                    const sectionTop = section.offsetTop - 120;
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('text-rotary-gold');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('text-rotary-gold');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
