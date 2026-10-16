@@ -58,19 +58,16 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Branding -->
                 <div class="flex items-center space-x-3">
-                    <a href="#home" class="flex items-center space-x-3 group">
-                        <!-- Custom Circular Interact Emblem -->
-                        <div class="w-12 h-12 rounded-full gold-gradient p-0.5 flex items-center justify-center shadow-lg group-hover:scale-105 transition transform">
-                            <div class="w-full h-full bg-white rounded-full flex items-center justify-center overflow-hidden p-0.5">
-                                <img src="inter.png" alt="Interact Club Logo" class="w-full h-full object-contain rounded-full">
-                            </div>
+                    <div class="w-12 h-12 rounded-full gold-gradient p-0.5 flex items-center justify-center shadow-lg">
+                        <div class="w-full h-full bg-navy-900 rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-wheelchair-move text-rotary-gold text-xl transform rotate-12"></i>
                         </div>
-                        <div>
-                            <span class="font-bold text-lg leading-tight block text-white group-hover:text-rotary-gold transition">Interact Club Of</span>
-                            <span class="text-xs text-slate-300 block font-light">Ocer Campion Jesuit College</span>
-                            <span class="text-[10px] text-rotary-gold block tracking-wider font-semibold uppercase">Sponsored by Rotary Club of Gulu</span>
-                        </div>
-                    </a>
+                    </div>
+                    <div>
+                        <a href="#home" class="font-bold text-lg leading-tight block text-white">Interact Club</a>
+                        <span class="text-xs text-slate-300 block font-light">Ocer Campion Jesuit College</span>
+                        <span class="text-[10px] text-rotary-gold block tracking-wider font-semibold uppercase">Sponsored by Rotary Club of Gulu</span>
+                    </div>
                 </div>
 
                 <!-- Desktop Navigation -->
@@ -108,6 +105,7 @@
             <a href="#updates" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Updates</a>
             <a href="#projects" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Projects & Service</a>
             <a href="#gallery" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Gallery</a>
+            <a href="#team" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Gallery</a>
             <a href="#team" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Team</a>
             <a href="#contact" onclick="toggleMobileMenu()" class="block py-2 text-slate-300 hover:text-rotary-gold font-medium">Contact</a>
             <button onclick="toggleMobileMenu(); openJoinModal();" class="w-full mt-2 gold-gradient text-navy-950 font-bold px-5 py-3 rounded-xl text-center">
@@ -551,4 +549,347 @@
                     <p class="text-3xl font-extrabold text-navy-900 sm:text-4xl">Meet Our Leadership Team</p>
                 </div>
 
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Executive 1 -->
+                    <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 text-center card-hover">
+                        <div class="w-24 h-24 mx-auto rounded-full navy-gradient flex items-center justify-center text-3xl text-rotary-gold mb-4 border-2 border-rotary-gold shadow-md">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-900">Club President</h3>
+                        <p class="text-xs text-rotary-gold font-semibold uppercase tracking-wider mb-3">Executive Leadership</p>
+                        <p class="text-xs text-slate-500 mb-4">Directs club strategy, leads meetings, and coordinates directly with Rotary Club of Gulu advisors.</p>
+                        <span class="inline-block bg-navy-900/10 text-navy-900 text-[11px] font-semibold px-3 py-1 rounded-full">Ocer Campion JC</span>
+                    </div>
+
+                    <!-- Executive 2 -->
+                    <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 text-center card-hover">
+                        <div class="w-24 h-24 mx-auto rounded-full navy-gradient flex items-center justify-center text-3xl text-rotary-gold mb-4 border-2 border-rotary-gold shadow-md">
+                            <i class="fa-solid fa-bullhorn"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-900">Public Relations Officer</h3>
+                        <p class="text-xs text-rotary-gold font-semibold uppercase tracking-wider mb-3">Communications</p>
+                        <p class="text-xs text-slate-500 mb-4">Manages social media channels (@ocerinteract), publicity, and external communications.</p>
+                        <span class="inline-block bg-navy-900/10 text-navy-900 text-[11px] font-semibold px-3 py-1 rounded-full">@ocerinteract</span>
+                    </div>
+
+                    <!-- Executive 3 -->
+                    <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 text-center card-hover">
+                        <div class="w-24 h-24 mx-auto rounded-full navy-gradient flex items-center justify-center text-3xl text-rotary-gold mb-4 border-2 border-rotary-gold shadow-md">
+                            <i class="fa-solid fa-file-pen"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-900">Club Secretary</h3>
+                        <p class="text-xs text-rotary-gold font-semibold uppercase tracking-wider mb-3">Administration</p>
+                        <p class="text-xs text-slate-500 mb-4">Maintains meeting minutes, official records, membership rolls, and project documentation.</p>
+                        <span class="inline-block bg-navy-900/10 text-navy-900 text-[11px] font-semibold px-3 py-1 rounded-full">Ocer Campion JC</span>
+                    </div>
+
+                    <!-- Executive 4 -->
+                    <div class="bg-slate-50 rounded-2xl border border-slate-200 p-6 text-center card-hover">
+                        <div class="w-24 h-24 mx-auto rounded-full navy-gradient flex items-center justify-center text-3xl text-rotary-gold mb-4 border-2 border-rotary-gold shadow-md">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-navy-900">Club Treasurer</h3>
+                        <p class="text-xs text-rotary-gold font-semibold uppercase tracking-wider mb-3">Finance</p>
+                        <p class="text-xs text-slate-500 mb-4">Oversees fundraising accounts, budget allocation for projects, and financial integrity.</p>
+                        <span class="inline-block bg-navy-900/10 text-navy-900 text-[11px] font-semibold px-3 py-1 rounded-full">Ocer Campion JC</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media & Contact Section -->
+        <section id="contact" class="py-20 bg-slate-900 text-white relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    
+                    <!-- Left: Social & Info -->
+                    <div>
+                        <span class="text-rotary-gold text-xs font-bold uppercase tracking-widest block mb-2">Connect With Us</span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold mb-6">Stay Connected & Get Involved</h2>
+                        <p class="text-slate-300 leading-relaxed mb-8">
+                            Have questions or want to partner with the Interact Club of Ocer Campion Jesuit College? Reach out to us through our social channels or fill out the message form.
+                        </p>
+
+                        <!-- Contact Badges -->
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-center space-x-4 bg-slate-800/80 p-4 rounded-xl border border-slate-700">
+                                <div class="w-12 h-12 bg-rotary-gold/10 text-rotary-gold rounded-lg flex items-center justify-center text-xl">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-slate-400 font-medium">Email Us Direct</p>
+                                    <a href="mailto:ocerinteract@gmail.com" class="text-white font-bold hover:text-rotary-gold transition">ocerinteract@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center space-x-4 bg-slate-800/80 p-4 rounded-xl border border-slate-700">
+                                <div class="w-12 h-12 bg-pink-500/10 text-pink-500 rounded-lg flex items-center justify-center text-xl">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-slate-400 font-medium">Follow Instagram</p>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="text-white font-bold hover:text-rotary-gold transition">@ocerinteract</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center space-x-4 bg-slate-800/80 p-4 rounded-xl border border-slate-700">
+                                <div class="w-12 h-12 bg-cyan-500/10 text-cyan-400 rounded-lg flex items-center justify-center text-xl">
+                                    <i class="fa-brands fa-tiktok"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-slate-400 font-medium">Follow TikTok</p>
+                                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="text-white font-bold hover:text-rotary-gold transition">@ocerinteract</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Interactive Contact Form -->
+                    <div class="bg-white text-navy-900 p-8 rounded-3xl shadow-xl border border-slate-200">
+                        <h3 class="text-2xl font-bold mb-2">Send Us a Message</h3>
+                        <p class="text-sm text-slate-500 mb-6">We would love to hear from fellow Interactors, Rotarians, and supporters!</p>
+
+                        <form id="contact-form" onsubmit="handleContactSubmit(event)" class="space-y-4">
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Your Name</label>
+                                <input type="text" required placeholder="Enter full name" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-rotary-gold text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Your Email</label>
+                                <input type="email" required placeholder="name@example.com" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-rotary-gold text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Subject</label>
+                                <input type="text" required placeholder="Project Inquiry / General Question" class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-rotary-gold text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Message</label>
+                                <textarea rows="4" required placeholder="Write your message here..." class="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-rotary-gold text-sm"></textarea>
+                            </div>
+                            <button type="submit" class="w-full gold-gradient text-navy-950 font-bold py-3.5 rounded-xl hover:opacity-95 transition shadow-md">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-navy-950 text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-2">Interact Club</h4>
+                    <p class="text-xs text-rotary-gold font-medium mb-3">Ocer Campion Jesuit College</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Forming young leaders dedicated to service, integrity, and global fellowship in Gulu, Uganda.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold text-sm mb-3 uppercase tracking-wider">Quick Links</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#home" class="hover:text-rotary-gold transition">Home</a></li>
+                        <li><a href="#about" class="hover:text-rotary-gold transition">About Us</a></li>
+                        <li><a href="#updates" class="hover:text-rotary-gold transition">Updates</a></li>
+                        <li><a href="#projects" class="hover:text-rotary-gold transition">Projects & Service</a></li>
+                        <li><a href="#gallery" class="hover:text-rotary-gold transition">Gallery</a></li>
+                        <li><a href="#team" class="hover:text-rotary-gold transition">Leadership Team</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold text-sm mb-3 uppercase tracking-wider">Rotary Sponsorship</h4>
+                    <p class="text-xs text-slate-300 mb-2">Proudly sponsored and mentored by:</p>
+                    <p class="text-sm font-bold text-white mb-4"><i class="fa-solid fa-gear text-rotary-gold mr-1"></i> Rotary Club of Gulu</p>
+                    <div class="flex space-x-3 text-lg text-slate-300">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="hover:text-rotary-gold transition" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="hover:text-rotary-gold transition" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="mailto:ocerinteract@gmail.com" class="hover:text-rotary-gold transition" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-slate-800 pt-6 text-center text-xs">
+                <p>&copy; <span id="current-year"></span> Interact Club of Ocer Campion Jesuit College. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Join Us Modal Popup -->
+    <div id="join-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/80 backdrop-blur-sm hidden">
+        <div class="bg-white text-navy-900 rounded-3xl max-w-md w-full p-6 sm:p-8 relative shadow-2xl animate-fade-in">
+            <button onclick="closeJoinModal()" class="absolute top-4 right-4 text-slate-400 hover:text-navy-900 p-2">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <div class="text-center mb-6">
+                <div class="w-12 h-12 gold-gradient rounded-full flex items-center justify-center mx-auto mb-3 shadow-md">
+                    <i class="fa-solid fa-user-plus text-navy-950 text-xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold">Become an Interactor</h3>
+                <p class="text-xs text-slate-500 mt-1">Join Ocer Campion Jesuit College Interact Club</p>
+            </div>
+
+            <form id="join-form" onsubmit="handleJoinSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Student Full Name</label>
+                    <input type="text" required placeholder="e.g. John Okello" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-rotary-gold">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Class / Form Level</label>
+                    <input type="text" required placeholder="e.g. Senior 3" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-rotary-gold">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Email or Phone</label>
+                    <input type="text" required placeholder="Contact info" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-rotary-gold">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-600 mb-1">Why do you want to join Interact?</label>
+                    <textarea rows="3" required placeholder="Share your motivation to serve..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-rotary-gold"></textarea>
+                </div>
+                <button type="submit" class="w-full gold-gradient text-navy-950 font-bold py-3 rounded-xl hover:opacity-95 transition shadow-md">
+                    Submit Application
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Gallery Lightbox Modal Popup -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/90 backdrop-blur-sm hidden">
+        <div class="bg-navy-900 text-white rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl border border-slate-800">
+            <button onclick="closeLightbox()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <div class="text-center mb-6 pt-2">
+                <div id="lightbox-icon-container" class="w-16 h-16 gold-gradient rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-lg text-navy-950 text-2xl">
+                    <i id="lightbox-icon" class="fa-solid fa-camera"></i>
+                </div>
+                <h3 id="lightbox-title" class="text-2xl font-bold text-white mb-2">Photo Title</h3>
+                <p id="lightbox-desc" class="text-sm text-slate-300 leading-relaxed px-4">Photo description details go here.</p>
+            </div>
+            <div class="text-center">
+                <button onclick="closeLightbox()" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-2.5 rounded-xl text-sm transition">
+                    Close Preview
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feedback Banner Container for custom non-alert notifications -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 bg-navy-900 text-white px-6 py-4 rounded-2xl shadow-2xl border border-rotary-gold hidden flex items-center space-x-3">
+        <i class="fa-solid fa-circle-check text-rotary-gold text-xl"></i>
+        <span id="toast-message" class="text-sm font-medium">Message sent successfully!</span>
+    </div>
+
+    <!-- JavaScript Interactivity -->
+    <script>
+        // Set dynamic copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        function toggleMobileMenu() {
+            mobileMenu.classList.add('hidden');
+        }
+
+        // Modal Logic
+        function openJoinModal() {
+            document.getElementById('join-modal').classList.remove('hidden');
+        }
+
+        function closeJoinModal() {
+            document.getElementById('join-modal').classList.add('hidden');
+        }
+
+        // Lightbox Modal Logic for Gallery
+        function openLightbox(title, description, iconClass) {
+            document.getElementById('lightbox-title').textContent = title;
+            document.getElementById('lightbox-desc').textContent = description;
+            document.getElementById('lightbox-icon').className = iconClass;
+            document.getElementById('lightbox-modal').classList.remove('hidden');
+        }
+
+        function closeLightbox() {
+            document.getElementById('lightbox-modal').classList.add('hidden');
+        }
+
+        // Filter Projects
+        function filterProjects(category) {
+            const cards = document.querySelectorAll('.project-card');
+            const filterBtns = document.querySelectorAll('#project-filters .filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.classList.remove('bg-navy-900', 'text-white');
+                btn.classList.add('bg-slate-100', 'text-slate-600');
+            });
+
+            // Highlight active button
+            event.target.classList.remove('bg-slate-100', 'text-slate-600');
+            event.target.classList.add('bg-navy-900', 'text-white');
+
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Filter Gallery Photos
+        function filterGallery(category) {
+            const items = document.querySelectorAll('.gallery-item');
+            const filterBtns = document.querySelectorAll('#gallery-filters .gallery-filter-btn');
+
+            filterBtns.forEach(btn => {
+                btn.classList.remove('bg-navy-900', 'text-white');
+                btn.classList.add('bg-white', 'text-slate-600');
+            });
+
+            // Highlight active button
+            event.target.classList.remove('bg-white', 'text-slate-600');
+            event.target.classList.add('bg-navy-900', 'text-white');
+
+            items.forEach(item => {
+                if (category === 'all' || item.getAttribute('data-category') === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        // Toast Feedback Notification instead of alert()
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-message');
+            toastMsg.textContent = message;
+            toast.classList.remove('hidden');
+            setTimeout(() => {
+                toast.classList.add('hidden');
+            }, 4000);
+        }
+
+        // Handle Contact Form Submission
+        function handleContactSubmit(event) {
+            event.preventDefault();
+            showToast('Thank you for your message! Our Interact team will get back to you soon.');
+            event.target.reset();
+        }
+
+        // Handle Join Form Submission
+        function handleJoinSubmit(event) {
+            event.preventDefault();
+            closeJoinModal();
+            showToast('Membership application submitted! We look forward to welcoming you.');
+            event.target.reset();
+        }
+    </script>
+</body>
+</html>
